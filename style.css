@@ -3,3 +3,73 @@ body{
     flex-direction: column;
     gap:16px;
 }
+
+.header{
+    background-color: black;
+    color: palegoldenrod;
+    display: flex;
+    flex:1 1 0;
+}
+.header{
+    justify-content: space-between;
+}
+.headerLinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding-right: 10px;
+}
+
+.logo{
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.titleContent{
+    display: flex;
+    flex: 1;
+    background-color: black;;
+}
+
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.actionItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: blue;
+    border-radius: 1em;
+    padding:16px 8px;
+    gap: 16px;
+    color: white;
+}
+.callToAction{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.actionTitle{
+    font-size: larger;
+    font-weight: 700;
+    margin-bottom: 8px;
+    max-width: 80%;
+}
+
+.actionText{
+    font-size: small;
+}
+
+.bookUsBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
