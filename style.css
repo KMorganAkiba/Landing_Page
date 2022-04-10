@@ -2,17 +2,18 @@ body{
     display: flex;
     flex-direction: column;
     gap:16px;
+    margin:0px;
+    
 }
 
 .header{
     background-color: black;
-    color: palegoldenrod;
+    color: goldenrod;
     display: flex;
     flex:1 1 0;
-}
-.header{
     justify-content: space-between;
 }
+
 .headerLinks{
     display: flex;
     align-items: center;
@@ -29,12 +30,26 @@ body{
 .titleContent{
     display: flex;
     flex: 1;
-    background-color: black;;
+    background-color: black;
+}
+.text{
+    color: white;
 }
 
+.testamonial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+}
 
+blockquote{
+    font-size: xx-large;
+    font-style: italic;  
+}
 
-.footer{
+.actionTime{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -72,4 +87,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    background-color: black;
+    color: goldenrod;
+
 }
