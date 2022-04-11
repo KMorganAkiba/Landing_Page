@@ -3,97 +3,135 @@ body{
     flex-direction: column;
     gap:16px;
     margin:0px;
-    
+    font-family: 'Roboto', sans-serif;
 }
-
 .header{
-    background-color: black;
-    color: goldenrod;
     display: flex;
-    flex:1 1 0;
+    align-items: center;
     justify-content: space-between;
 }
 
 .headerLinks{
     display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 16px;
-    padding-right: 10px;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.top, footer{
+    background-color:#1f2937;
+}
+
+.logo, .title{
+    color: #F9faf8;
 }
 
 .logo{
-    font-size: 32px;
-    font-weight: 900;
+    font-size: 24px;
+}
+.title{
+    font-size: 48px;
+    font-weight: extra-bold;
 }
 
+p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.headerLinks, .text{
+    font-size: 18px;
+    color:#E5E7EB;;
+}
+
+a:link{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+a:visited{
+    color: #E5E7EB;   
+}
+
+.companyImg, .testamonial{
+    background-color:#E5E7EB ;
+}
 .titleContent{
     display: flex;
-    flex: 1;
-    background-color: black;
-}
-.text{
-    color: white;
+    gap: 16px;
 }
 
-.testamonial{
+.leftContent{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: lightgrey;
+    
 }
 
+.infoTitle{
+    font-size: 36px;
+    color: #1f2937;
+}
+.testamonial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
 blockquote{
-    font-size: xx-large;
-    font-style: italic;  
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
 }
 
 .actionTime{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-bottom: 16px;
 }
 
 .actionItem{
+    background-color: #3882f6;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: blue;
-    border-radius: 1em;
-    padding:16px 8px;
-    gap: 16px;
-    color: white;
-}
-.callToAction{
-    display: flex;
-    flex-direction: column;
-    max-width: 300px;
+    gap: 8px;
+    width: 80%;
 }
 
-.actionTitle{
-    font-size: larger;
-    font-weight: 700;
-    margin-bottom: 8px;
-    max-width: 80%;
-}
-
-.actionText{
-    font-size: small;
-}
-
-.bookUsBtn{
+.actionBtn{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.actionTitle{
+    color: #F9faf8;
+    font-size: 24px;
+}
 
-.footer{
+.actionText{
+    color: #E5E7EB; 
+}
+
+button{
+    background-color: #3882f6;
+    color: #F9faf8;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.sgnupBtn{
+    border: #F9faf8 solid;
+    
+}
+
+footer{
     display: flex;
     justify-content: center;
-    font-style: italic;
-    background-color: black;
-    color: goldenrod;
-
+    align-items: center;
+    flex-grow: 0;
 }
