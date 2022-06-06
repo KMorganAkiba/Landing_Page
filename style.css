@@ -4,16 +4,18 @@ body{
     gap:16px;
     margin:0px;
     font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
 }
 .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 24px;
 }
 
 .headerLinks{
     display: flex;
-    gap: 16px;
+    gap: 24px;
 }
 
 .top{
@@ -27,14 +29,14 @@ body{
     background-color:#1f2937;
 }
 
-.logo, .title{
+.logo, .heroTitle{
     color: #F9faf8;
 }
 
 .logo{
     font-size: 24px;
 }
-.title{
+.heroTitle{
     font-size: 48px;
     font-weight: extra-bold;
 }
@@ -44,9 +46,9 @@ p{
     margin-bottom: 0px;
 }
 
-.headerLinks, .text{
+.headerLinks, .heroText{
     font-size: 18px;
-    color:#E5E7EB;;
+    color:#E5e7eb;;
 }
 
 a:link{
@@ -63,30 +65,78 @@ a:visited{
 }
 .titleContent{
     display: flex;
-    gap: 16px;
+    margin-top: 10%;
+    margin-bottom: 10%;;
+    height:250px;
+    gap: 40px;
 }
 
 .leftContent{
     display: flex;
     flex-direction: column;
-    
+    width: 451px;
+    gap: 8px;
+    flex-shrink: 0;
 }
 
+.heroBtn{
+    padding-top: 10px;
+    width: 130px;
+    border-radius: 10px;
+    height:40px;
+}
+
+.companyImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(113, 114, 116);
+    color:#E5E7EB;
+    flex-shrink: 1;
+}
+
+.rdmInfo{
+    flex-direction: column;
+    display: flex;
+    margin:auto;
+}
 .infoTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 36px;
     color: #1f2937;
 }
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
 .testamonial{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding-left: 15%;
     padding-right: 15%;
+    height: 350px;
 }
-blockquote{
+.quote{
+    display: flex;
     font-size: 36px;
     color: #1f2937;
-    font-weight: 300;
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: 0px;
+    width: 774px;
+}
+.cite{
+    display: flex;
+    flex-direction: row-reverse;
+    font-weight: bold;
+    font-size: 24px;
+    width: 750px;
 }
 
 .actionTime{
@@ -94,13 +144,13 @@ blockquote{
     justify-content: center;
     align-items: center;
     margin-bottom: 16px;
+    margin-top: auto;
 }
 
 .actionItem{
     background-color: #3882f6;
     display: flex;
     gap: 8px;
-    width: 80%;
 }
 
 .actionBtn{
@@ -133,5 +183,12 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-grow: 0;
+    margin-top: auto;
+    padding: 30px;
+}
+
+.footerText{
+    color: #E5e7eb;
+    font-size: 18px;
+    font-weight:300;
 }
